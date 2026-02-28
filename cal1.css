@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A2E;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.container{
+    background-color: #16213E;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.inpt{
+    margin :10px;
+    padding: 10px;
+    background-color:  #0F3460;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #0F3460;
+    transition: border-color 0.3s;
+    gap: 15px;
+}
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+.inpt input:focus{
+    border: none;
+    outline:none
+}
+h1 {
+    color: #E94560;
+}
+h3{
+    color: green;
+    text-align:  center;
+    font-size: 30px;
+    display: none;
+}
+#btn {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #E94560, #c23152);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#btn:hover {
+    background: linear-gradient(135deg, #c23152, #E94560);
+    box-shadow: 0 5px 20px rgba(233, 69, 96, 0.4);
+    transform: translateY(-2px);
+}
+
+#btn:active {
+    transform: scale(0.95);
+}
+#iptD,#iptM,#iptY{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+#validdate{
+    color: red;
+    display: none;
+}
+#validMonth{
+    color: red;
+    display: none;
+}
+#validYear{
+    color:red;
+    display: none;
+}
