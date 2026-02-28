@@ -77,7 +77,7 @@ btn.addEventListener("click",function(){
             let h3 = document.querySelector("h3");
             btn.style.display = "none";
             if(cntD == 0 && cntM == 0 && cntY > 0){
-                 h3.textContent = `🎉Happy BirthDay dear.congratulation your are now ${cntY} years old`
+                 h3.textContent = `🎉                git credential-manager delete https://github.comHappy BirthDay dear.congratulation your are now ${cntY} years old`
                 h3.style.display = "block";
             }
             else{
