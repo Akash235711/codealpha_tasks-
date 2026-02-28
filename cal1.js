@@ -59,7 +59,7 @@ btn.addEventListener("click",function(){
         let today = new Date();
         if(validbirth > today){
                 document.querySelector("h3").textContent  = "Birth date can't be in the future!";
-                document.querySelector("h3").textContent .style.display = "block";
+                document.querySelector("h3").style.display = "block";
                 return;
         }
         let cntY = today.getFullYear() - getyear;
